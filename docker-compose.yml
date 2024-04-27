@@ -1,0 +1,13 @@
+services:
+  app:
+    container_name: bank-frontend
+    build:
+      context: ./modern-banking-system-frontend
+      dockerfile:  Dockerfile
+    ports:
+      - "8080:80"
+
+networks:
+  app-network:
+    driver: bridge
+    
