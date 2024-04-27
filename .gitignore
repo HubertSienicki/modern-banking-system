@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/modern-banking-system-frontend/node_modules
+/modern-banking-system-frontend/.pnp
+/modern-banking-system-frontend/.pnp.js
+
+# testing
+/modern-banking-system-frontend/coverage
+
+# production
+/modern-banking-system-frontend/build
+
+# misc
+/modern-banking-system-frontend/.DS_Store
+/modern-banking-system-frontend/.env.local
+/modern-banking-system-frontend/.env.development.local
+/modern-banking-system-frontend/.env.test.local
+/modern-banking-system-frontend/.env.production.local
+
+/modern-banking-system-frontend/npm-debug.log*
+/modern-banking-system-frontend/yarn-debug.log*
+/modern-banking-system-frontend/yarn-error.log*
