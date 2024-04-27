@@ -1,13 +1,13 @@
 import './styles/App.css';
-import ButtonTest from './components/buttontest';
+import { BrowserRouter as Router } from 'react-router-dom';
+import AppRoutes from './AppRoutes';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Hello, world!
-        <ButtonTest />
-      </header>
+      <Router>
+        <AppRoutes />
+      </Router>
     </div>
   );
 }
